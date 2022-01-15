@@ -6,12 +6,8 @@
  *  Revision History
  *      Jeonghwan Ju, 2022.01.15: Created
  */
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PaymentAPI.Models
 {
@@ -31,6 +27,5 @@ namespace PaymentAPI.Models
 
         [Column(TypeName = "nvarchar(3)")]
         public string SecurityCode { get; set; }
-
     }
 }
